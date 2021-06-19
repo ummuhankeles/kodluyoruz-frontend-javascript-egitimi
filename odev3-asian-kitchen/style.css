@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f5f8;
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    color: #8d037b;
+    font-family: 'Indie Flower', cursive;
+}
+.menu {
+    margin-top: 20px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+.btn-item {
+    margin-left: 15px;
+}
+
+.photo {
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+    border: 0.25rem solid black;
+    border-radius: 10px;
+}
+.menu-items {
+    display: flex;
+    margin: 20px 0;
+}
+.menu-info {
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+.menu-title {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+
+h4 {
+    color: #8d037b;
+}
+
+.menu-text {
+    padding-top: 20px;
+}
